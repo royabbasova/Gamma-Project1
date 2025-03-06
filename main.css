@@ -1,1 +1,40 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*ROYA - SECTION4*/
+
+.course-cards-h1 {
+    margin: 0 0 95px;
+
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+}
+
+.course-container {
+    list-style-type: none;
+
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card {
+    padding: 0;
+}
+
+.card p {
+    font-family: 'Roboto';
+}
