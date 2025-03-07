@@ -12,3 +12,50 @@
     font-style: normal;
 }
 
+/* MURAD - FORMAT CONTAINER SECTION 3 */
+
+#format-container {
+    padding: 0 122px 50px;
+}
+.format-head{
+    font-weight: bold;
+    font-size: 55px; 
+    font-family: 'Roboto Slab';
+    margin-bottom: 65px;
+}
+.format-card{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 200px;
+}
+.format-card h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color:#1E4681;
+    margin-bottom: 0px;
+}
+.format-card p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 223px;
+    margin-top: 8px;
+    
+}
+
+.second ul{
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 46%;
+}
+
+.punct {
+    margin-bottom: 50px;
+}
+
+.second li {
+    line-height: 150%;
+}
