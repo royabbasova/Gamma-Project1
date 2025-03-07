@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('./fonts/Roboto/Roboto-VariableFont_wght.ttf') format('truetype');
+    src: url('./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,4 +10,143 @@
     src: url('./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+/*ROYA - SECTION4*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#course-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-cards-h1 {
+    margin: 0 0 95px;
+    padding-left: 130px;
+
+    align-self: flex-start;
+
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+}
+
+.course-container {
+    list-style-type: none;
+
+    padding: 0 0 0 30px;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    width: 90%;
+}
+
+.card {
+    padding: 0;
+    margin: 0;
+
+    width: 31%;
+
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card p {
+    font-family: 'Roboto';
+}
+
+.card-head {
+    margin: 11px 0 32px;
+    padding: 0 20px;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-description {
+    padding: 0 20px;
+    margin-bottom: 23px;
+
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.card:last-child .card-description {
+    margin-top: 5px;
+}
+
+.card:last-child .card-head {
+    margin-bottom: 0;
+}
+
+.card-img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 830px) and (max-width: 1440px) {
+    .course-cards-h1 {
+        font-size: 32px;
+
+        padding-left: 70px;
+        margin-bottom: 55px;
+    }
+
+    .card-head {
+        font-size: 17px;
+
+        margin: 6px 0 18px;
+    }
+
+    .card-description {
+        font-size: 14px;
+
+        margin-bottom: 13px;
+    }
+
+    .course-container {
+        gap: 21px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 830px) {
+    .course-cards-h1 {
+        font-size: 26px;
+
+        padding-left: 34px;
+        margin-bottom: 40px;
+    }
+
+    .card-head {
+        font-size: 14px;
+
+        margin: 5px 0 16px;
+    }
+
+    .card-description {
+        font-size: 12px;
+
+        margin-bottom: 10px;
+    }
+
+    .course-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .card {
+        width: 62%;
+    }
 }
