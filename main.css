@@ -1,1 +1,39 @@
 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navbar {
+
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.info {
+position: absolute;
+width: 130px;
+height: 32px;
+left: 151px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* or 23px */
+
+color: #000000;
+
+
+}
+.info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
