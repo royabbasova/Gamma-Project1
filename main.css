@@ -14,38 +14,37 @@
 
 /* ------İBRAHİM SECTİON1 ------*/
 
+
 #kino-container {
     margin: 0 auto;
-    margin: 21px 121px;
+    width: 80%;
+    margin-top: 25px;
 }
 
 .logo {
-    width: 112px;
-    height: 66px;
-
+    max-width: 8vw;
+    max-height: 9vh;
+    width: auto;
+    height: auto;
 }
 
 .navbar {
-
     display: flex;
     font-family: 'Roboto';
-    margin-top: 90px;
-    font-size: 20px;
-    gap: 40px;
-
+    margin-top: 30px;
+    font-size: 1.5vw;
+    gap: 3vw;
 }
 
 .navbar div {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.8vw;
 }
 
-
 .navbar div img {
-    width: 22px;
-    height: 22px;
-
+    width: 3vh;
+    height: 3vh;
 }
 
 .kino-info {
@@ -54,61 +53,47 @@
     margin: 0;
 }
 
-
 .kino-text h1 {
-
     font-family: 'Roboto Slab';
     font-size: 80px;
-    line-height: 101.4%;
-    width: 628px;
-    height: 160px;
+    line-height: 1.2;
+    width: 80%;
     margin: 10px 0;
-
 }
-
 
 .kino-text p {
-
     font-family: 'Roboto';
     font-size: 20px;
-    line-height: 150%;
+    line-height: 1.5;
+    width: 100%;
     margin: 25px 0;
-    width: 414px;
-    height: 62px;
-
 }
 
-
 .kino-main-img {
-
-    width: 304px;
-    height: 356px;
-
+    max-width: 30vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
 }
 
 .kino-second {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
 }
 
 .kino-second-blue {
-
-    width: 483.83px;
-    height: 200px;
+    width: 60%;
     background: #1E4681;
     color: #FFFFFF;
     border-radius: 5px;
-
-
+    padding: 23px;
+    margin-top: 40px;
 }
 
 .kino-second-blue p {
     font-family: 'Roboto Slab';
     font-size: 25px;
-    padding: 0 23px;
-    margin-bottom: 0;
-
+    margin-bottom: 3px;
 }
 
 .kino-second-blue p:last-child {
@@ -116,104 +101,62 @@
     font-size: 20px;
     text-align: right;
     margin: 0;
-
 }
 
 @media screen and (min-width: 830px) and (max-width:1440px) {
-    #kino-container {
-        margin: 0 auto;
-        margin: 21px 70px;
-    }
-
-    .kino-container-main {
-        margin-right: 70px;
-    }
-
-    .logo {
-        width: 65px;
-        height: 38px;
-    }
-
     .navbar {
-        margin-top: 60px;
-        font-size: 12px;
-        gap: 20px;
+        font-size: 1.5vw;
+        gap: 2vw;
     }
 
     .navbar div {
-        gap: 8px;
+        gap: 0.5vw;
     }
 
     .navbar div img {
-        width: 13px;
-        height: 13px;
+        width: clamp(16px, 1.6vw, 30px);
+        height: clamp(16px, 1.6vw, 30px);
     }
 
-
     .kino-text h1 {
-        font-size: 46px;
-        width: 363px;
-        height: 90px;
-        margin: 7px 0;
+        font-size: 5vw;
     }
 
     .kino-text p {
-        font-size: 12px;
-        margin: 20px 0;
-        width: 264px;
-        height: 36px;
+        font-size: 1.8vw;
     }
 
     .kino-main-img {
-        width: 176px;
-        height: 206px;
         margin-top: 5px;
     }
 
-    .kino-second {
-        margin-top: 40px;
-    }
-
     .kino-second-blue {
-        width: 280px;
-        height: 116px;
         border-radius: 3px;
+        padding: 15px;
     }
 
     .kino-second-blue p {
-        font-size: 14px;
-        padding: 0 15px;
+        font-size: 1.8vw;
     }
 
     .kino-second-blue p:last-child {
-        font-size: 12px;
+        font-size: 1.4vw;
     }
 }
 
 @media screen and (min-width: 375px) and (max-width:830px) {
-    #kino-container {
-        margin: 0 auto;
-        margin: 36px 35px;
-    }
-
-    .logo {
-        width: 52px;
-        height: 31px;
-    }
-
     .navbar {
-        margin-top: 45px;
-        font-size: 10px;
-        gap: 15px;
+        font-size: 2vw;
+        gap: 4vw;
     }
 
     .navbar div {
-        gap: 4px;
+        gap: 0.5vw;
     }
 
     .navbar div img {
-        width: 10px;
-        height: 10px;
+        width: clamp(10px, 2vw, 16px);
+        height: clamp(10px, 2vw, 16px);
     }
 
     .kino-info {
@@ -226,45 +169,28 @@
     }
 
     .kino-text h1 {
-        font-size: 37px;
-        width: 293px;
-        height: 73px;
-        margin: 4px 0;
+        font-size: 8vw;
     }
 
     .kino-text p {
-        font-size: 10px;
-        margin-top: 15px;
-        margin-bottom: 0;
-        width: 212px;
-        height: 30px;
+        font-size: 2.5vw;
     }
 
     .kino-main-img {
-        width: 141px;
-        height: 175px;
         align-self: flex-end;
-
-    }
-
-    .kino-second {
-        margin-top: 40px;
-        margin-right: 70px;
-
     }
 
     .kino-second-blue {
-        width: 225px;
-        height: 93px;
         border-radius: 2.3px;
+        padding: 12px;
     }
 
     .kino-second-blue p {
-        font-size: 11px;
-        padding: 0 12px;
+        font-size: 2.5vw;
+
     }
 
     .kino-second-blue p:last-child {
-        font-size: 10px;
+        font-size: 2vw;
     }
 }
