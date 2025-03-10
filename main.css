@@ -191,6 +191,15 @@
     }
 
     .kino-second-blue p:last-child {
-        font-size: 2vw;
+        font-size: 10px;
     }
+
+    .green-boxes {
+        gap: 30px;
+    }
+
+    .green-boxes div {
+        width: 50%;
+  }
 }
+
