@@ -150,3 +150,504 @@ body {
         width: 62%;
     }
 }
+=======
+/* ------İBRAHİM SECTİON1 ------*/
+
+#kino-container {
+    margin: 0 auto;
+    margin: 21px 121px;
+}
+
+.logo {
+    width: 112px;
+    height: 66px;
+
+}
+
+.navbar {
+
+    display: flex;
+    font-family: 'Roboto';
+    margin-top: 90px;
+    font-size: 20px;
+    gap: 40px;
+
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.navbar div img {
+    width: 22px;
+    height: 22px;
+
+}
+
+.kino-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+.kino-text h1 {
+
+    font-family: 'Roboto Slab';
+    font-size: 80px;
+    line-height: 101.4%;
+    width: 628px;
+    height: 160px;
+    margin: 10px 0;
+
+}
+
+
+.kino-text p {
+
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 150%;
+    margin: 25px 0;
+    width: 414px;
+    height: 62px;
+
+}
+
+
+.kino-main-img {
+
+    width: 304px;
+    height: 356px;
+
+}
+
+.kino-second {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.kino-second-blue {
+
+    width: 483.83px;
+    height: 200px;
+    background: #1E4681;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+
+}
+
+.kino-second-blue p {
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    padding: 0 23px;
+    margin-bottom: 0;
+
+}
+
+.kino-second-blue p:last-child {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+
+}
+
+@media screen and (min-width: 830px) and (max-width:1440px) {
+    #kino-container {
+        margin: 0 auto;
+        margin: 21px 70px;
+    }
+
+    .kino-container-main {
+        margin-right: 70px;
+    }
+
+    .logo {
+        width: 65px;
+        height: 38px;
+    }
+
+    .navbar {
+        margin-top: 60px;
+        font-size: 12px;
+        gap: 20px;
+    }
+
+    .navbar div {
+        gap: 8px;
+    }
+
+    .navbar div img {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    .kino-text h1 {
+        font-size: 46px;
+        width: 363px;
+        height: 90px;
+        margin: 7px 0;
+    }
+
+    .kino-text p {
+        font-size: 12px;
+        margin: 20px 0;
+        width: 264px;
+        height: 36px;
+    }
+
+    .kino-main-img {
+        width: 176px;
+        height: 206px;
+        margin-top: 5px;
+    }
+
+    .kino-second {
+        margin-top: 40px;
+    }
+
+    .kino-second-blue {
+        width: 280px;
+        height: 116px;
+        border-radius: 3px;
+    }
+
+    .kino-second-blue p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .kino-second-blue p:last-child {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:830px) {
+    #kino-container {
+        margin: 0 auto;
+        margin: 36px 35px;
+    }
+
+    .logo {
+        width: 52px;
+        height: 31px;
+    }
+
+    .navbar {
+        margin-top: 45px;
+        font-size: 10px;
+        gap: 15px;
+    }
+
+    .navbar div {
+        gap: 4px;
+    }
+
+    .navbar div img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .kino-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kino-text {
+        align-self: flex-start;
+    }
+
+    .kino-text h1 {
+        font-size: 37px;
+        width: 293px;
+        height: 73px;
+        margin: 4px 0;
+    }
+
+    .kino-text p {
+        font-size: 10px;
+        margin-top: 15px;
+        margin-bottom: 0;
+        width: 212px;
+        height: 30px;
+    }
+
+    .kino-main-img {
+        width: 141px;
+        height: 175px;
+        align-self: flex-end;
+
+    }
+
+    .kino-second {
+        margin-top: 40px;
+        margin-right: 70px;
+
+    }
+
+    .kino-second-blue {
+        width: 225px;
+        height: 93px;
+        border-radius: 2.3px;
+    }
+
+    .kino-second-blue p {
+        font-size: 11px;
+        padding: 0 12px;
+    }
+
+    .kino-second-blue p:last-child {
+      font-size: 10px;}
+}
+      
+/* MURAD - FORMAT CONTAINER SECTION 3 */
+
+#format-container {
+    padding: 0 122px 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.format-head {
+    font-weight: bold;
+    font-size: 55px;
+    font-family: 'Roboto Slab';
+    margin-bottom: 65px;
+}
+
+.format-card {
+    display: flex;
+    gap: 120px;
+    margin-bottom: 200px;
+}
+
+.format-card h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+    margin-bottom: 0px;
+}
+
+.format-card p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.second ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 46%;
+}
+
+.punct {
+    margin-bottom: 50px;
+}
+
+.second li {
+    line-height: 150%;
+}
+
+@media (min-width: 830px) and (max-width:1440px) {
+    #format-container {
+        padding: 0 199px 50px 71px;
+    }
+
+    .format-head {
+        font-size: 32px;
+    }
+
+    .format-card {
+        gap: 47px;
+        margin-bottom: 100px;
+    }
+
+    .format-card h3 {
+        font-size: 15px;
+    }
+
+    .format-card p {
+        font-size: 11px;
+    }
+
+    .second ul {
+        font-size: 14px;
+        width: 39%;
+    }
+
+    .punct {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 375px) and (max-width:830px) {
+    #format-container {
+        padding: 0 28px 50px 36px;
+    }
+
+    .format-head {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .format-card {
+        gap: 5px;
+        flex-direction: column;
+        margin-bottom: 73px;
+    }
+
+    .format-card h3 {
+        font-size: 12px;
+    }
+
+    .format-card p {
+        font-size: 10px;
+    }
+
+    .blockp1 {
+        width: 60%;
+    }
+
+    .blockp2 {
+        width: 50%;
+    }
+
+    .blockp3 {
+        width: 40%
+    }
+
+    .second ul {
+        font-size: 12px;
+        width: 77%;
+    }
+}
+
+/* MURAD - SECTIN6 - GREEN CONTAINER */
+
+#green-container {
+    background-color: #9DC9C8;
+    padding: 179px 122px 185px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.green-head1 {
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    margin: 0 0 54px 0;
+}
+
+.green-head2 {
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.green-head3 {
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+.green-boxes {
+    font-family: 'Roboto';
+    display: flex;
+    gap: 70px;
+}
+
+.box-head {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.green-box {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.green-boxes div {
+    width: 22%;
+}
+
+@media (min-width: 830px) and (max-width:1440px) {
+    #green-container {
+        padding: 103px 237px 107px 70px;
+    }
+
+    .green-head1 {
+
+        font-size: 32px;
+    }
+
+    .green-head2 {
+
+        font-size: 14px;
+    }
+
+    .green-head3 {
+        font-size: 46px;
+    }
+
+    .box-head {
+        font-size: 14px;
+    }
+
+    .green-box {
+        font-size: 10px;
+    }
+
+    .green-boxes {
+        gap: 40px;
+    }
+
+    .green-boxes div {
+        width: 30%;
+    }
+}
+
+@media (min-width: 375px) and (max-width:830px) {
+    #green-container {
+        padding: 62px 35px;
+    }
+
+    .green-head1 {
+        font-size: 26px;
+    }
+
+    .green-head2 {
+        font-size: 12px;
+    }
+
+    .green-head3 {
+        font-size: 37px;
+    }
+
+    .box-head {
+        font-size: 12px;
+    }
+
+    .green-box {
+        font-size: 10px;
+    }
+
+    .green-boxes {
+        gap: 30px;
+    }
+
+    .green-boxes div {
+        width: 50%;
+  }
+}
+
+
