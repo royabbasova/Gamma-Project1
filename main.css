@@ -21,7 +21,6 @@ body {
 }
 
 
-
 /* Fatimə Section 2 desktop version */
 
 .section2 {
@@ -78,6 +77,12 @@ body {
   display: flex;
   justify-content: space-between;
   width: 40%;
+}
+
+.section2-topside-img {
+  display: flex;
+  justify-content: center;
+  
 }
 
 /* Fatimə Section 2 tablet version */
