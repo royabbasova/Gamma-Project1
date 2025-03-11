@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
-  src: url('./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Roboto Slab';
+    src: url('./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -727,7 +727,6 @@ img.footer-right-icon {
   }
 }
 
-
 /* ------İBRAHİM SECTİON1 ------*/
 
 
@@ -737,29 +736,29 @@ img.footer-right-icon {
 }
 
 .logo {
-  max-width: 8vw;
+  max-width: 9vw;
   max-height: 9vh;
   width: auto;
   height: auto;
 }
 
 .navbar {
-  display: flex;
-  font-family: 'Roboto';
-  margin-top: 30px;
-  font-size: 1.5vw;
-  gap: 3vw;
+    display: flex;
+    font-family: 'Roboto';
+    margin-top: 30px;
+    font-size: 1.5vw;
+    gap: 2vw;
 }
 
 .navbar div {
-  display: flex;
-  align-items: center;
-  gap: 0.8vw;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
 }
 
 .navbar div img {
-  width: 3vh;
-  height: 3vh;
+    width: clamp(20px, 1.8vw, 30px);
+    height: clamp(20px, 1.8vw, 30px);
 }
 
 .kino-info {
@@ -769,26 +768,24 @@ img.footer-right-icon {
 }
 
 .kino-text h1 {
-  font-family: 'Roboto Slab';
-  font-size: 80px;
-  line-height: 1.2;
-  width: 80%;
-  margin: 10px 0;
+    font-family: 'Roboto Slab';
+    font-size: 6vw;
+    line-height: 1.2;
+    width: 80%;
+    margin: 10px 0;
 }
 
 .kino-text p {
-  font-family: 'Roboto';
-  font-size: 20px;
-  line-height: 1.5;
-  width: 100%;
-  margin: 25px 0;
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    line-height: 1.5;
+    width: 100%;
+    margin: 25px 0;
 }
 
 .kino-main-img {
-  max-width: 30vw;
-  max-height: 100vh;
-  width: auto;
-  height: auto;
+    min-width: 25vw;
+    min-height: 20vh;
 }
 
 .kino-second {
@@ -806,78 +803,74 @@ img.footer-right-icon {
 }
 
 .kino-second-blue p {
-  font-family: 'Roboto Slab';
-  font-size: 25px;
-  margin-bottom: 3px;
+    font-family: 'Roboto Slab';
+    font-size: 1.5vw;
+    margin-bottom: 3px;
 }
 
 .kino-second-blue p:last-child {
-  font-family: 'Roboto';
-  font-size: 20px;
-  text-align: right;
-  margin: 0;
+    font-family: 'Roboto';
+    font-size: 1.3vw;
+    text-align: right;
+    margin: 0;
 }
 
-@media screen and (min-width: 830px) and (max-width:1440px) {
-  .navbar {
-    font-size: 1.5vw;
-    gap: 2vw;
-  }
-
+@media screen and (min-width: 830px) and (max-width:1439px) {
+    .navbar {
+        font-size: 1.5vw;
+        gap: 2vw;
+    }
+  
   .navbar div {
     gap: 0.5vw;
   }
+    .navbar div img {
+        width: clamp(10px, 1.8vw, 30px);
+        height: clamp(10px, 1.8vw, 30px);
+    }
 
-  .navbar div img {
-    width: clamp(16px, 1.6vw, 30px);
-    height: clamp(16px, 1.6vw, 30px);
-  }
+    .kino-text h1 {
+        font-size: 6vw;
+    }
 
-  .kino-text h1 {
-    font-size: 5vw;
-  }
+    .kino-text p {
+        font-size: 1.5vw;
+    }
 
-  .kino-text p {
-    font-size: 1.8vw;
-  }
+    .kino-main-img {
+        margin-top: 5px;
+        max-width: 25vw;
+        max-height: 70vh;
+    }
 
-  .kino-main-img {
-    margin-top: 5px;
-  }
+    .kino-second-blue p {
+        font-size: 1.5vw;
+    }
 
+    .kino-second-blue p:last-child {
+        font-size: 1.2vw;
+    }
+  
   .kino-second-blue {
     border-radius: 3px;
     padding: 15px;
   }
-
-  .kino-second-blue p {
-    font-size: 1.8vw;
-  }
-
-  .kino-second-blue p:last-child {
-    font-size: 1.4vw;
-  }
-
-  #kino-container {
-
-    padding: 22px 70px 100px;
-  }
 }
 
-@media screen and (min-width: 375px) and (max-width:830px) {
-  .navbar {
-    font-size: 2vw;
-    gap: 4vw;
-  }
+@media screen and (min-width: 374px) and (max-width:829px) {
+    .navbar {
+        font-size: 2vw;
+        gap: 2vw;
+    }
 
   .navbar div {
     gap: 0.5vw;
   }
 
-  .navbar div img {
-    width: clamp(10px, 2vw, 16px);
-    height: clamp(10px, 2vw, 16px);
-  }
+    .navbar div img {
+        width: clamp(10px, 1.8vw, 20px);
+        height: clamp(10px, 1.8vw, 20px);
+    }
 
   .kino-info {
     display: flex;
@@ -892,29 +885,28 @@ img.footer-right-icon {
     font-size: 8vw;
   }
 
-  .kino-text p {
-    font-size: 2.5vw;
-  }
+    .kino-text p {
+        font-size: 3vw;
+    }
 
-  .kino-main-img {
-    align-self: flex-end;
-  }
-
+    .kino-main-img {
+        align-self: flex-end;
+        max-width: 40vw;
+    }
   .kino-second-blue {
     border-radius: 2.3px;
     padding: 12px;
   }
 
-  .kino-second-blue p {
 
-    font-size: 2.5vw;
+    .kino-second-blue p {
+        font-size: 2vw;
 
-    padding: 0 12px;
-  }
+    }
 
-  .kino-second-blue p:last-child {
-    font-size: 10px;
-  }
+    .kino-second-blue p:last-child {
+        font-size: 1.7vw;
+    }
 
   #kino-container {
 
