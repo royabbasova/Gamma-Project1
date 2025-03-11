@@ -12,20 +12,734 @@
     font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+/* Fatimə Section 2 desktop version */
+
+.section2 {
+  width: 100%;
+  font-family: 'Roboto';
+  padding: 0 121px 162px;
+}
+
+.section2-topside {
+  display: flex;
+  margin-bottom: 60px;
+  gap: 10%;
+  align-items: center;
+}
+
+.section2 h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab';
+}
+
+.section2-topside p {
+  font-size: 24px;
+  width: 47%;
+}
+
+.section2-topside img {
+  width: 100%;
+}
+
+.section2-bottomside {
+  display: flex;
+  gap: 7%;
+  align-items: center;
+}
+
+.section2-bottomside img {
+  width: 15%;
+}
+
+.section2-info h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.section2-info p {
+  width: 70%;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.section2-allinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+/* Fatimə Section 2 tablet version */
+
+
+@media screen and (min-width: 830px) and (max-width: 1440px) {
+
+  .section2-topside {
+    gap: 5%;
+    margin-bottom: 40px;
+  }
+
+  .section2 h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .section2-topside p {
+    font-size: 14px;
+    width: 48%;
+    margin-top: 0;
+  }
+
+  .section2-topside img {
+    width: 50%;
+  }
+
+  .section2-bottomside {
+    gap: 5%;
+  }
+
+  .section2-bottomside img {
+    width: 17%;
+  }
+
+  .section2-info h3 {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+
+  .section2-info p {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .section2-allinfo {
+    gap: 5%;
+    justify-content: left;
+  }
+
+  .section2 {
+    padding: 0 70px 93px;
+  }
+
+}
+
+
+/* Fatimə Section 2 mobile version */
+
+@media screen and (min-width: 375px) and (max-width: 830px) {
+
+  .section2 {
+    width: 100%;
+    padding: 0 36px 76px;
+  }
+
+  .section2-topside {
+    flex-direction: column;
+    gap: 10%;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .section2 h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .section2-topside p {
+    font-size: 12px;
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .section2-topside img {
+    width: 52%;
+  }
+
+  .section2-topside-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section2-bottomside {
+    width: 90%;
+  }
+
+  .section2-bottomside img {
+    display: none;
+  }
+
+  .section2-info {
+    width: 40%;
+  }
+
+  .section2-info p {
+    font-size: 10px;
+  }
+
+  .section2-info h3 {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .section2-allinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10%;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+}
+
+
+/* Fatimə Section 5 desktop version */
+
+
+.section5 {
+  font-family: 'Roboto';
+  width: 100%;
+  background-color: #efefef;
+  padding: 91px 121px 111px;
+}
+
+.section5 h1 {
+  width: 70%;
+  margin: 0;
+  font-size: 55px;
+  font-family: 'Roboto Slab';
+}
+
+.section5-container {
+  width: 55%;
+  border-radius: 40px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.section5-topside {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.section5-bottomside img {
+  width: 25%;
+}
+
+.section5-bottomside h3 {
+  font-size: 30px;
+  margin: 20px 0;
+  padding-left: 16px;
+  font-family: "Roboto Slab", serif;
+}
+
+.section5-bottomside {
+  margin-top: 10px;
+  display: flex;
+  gap: 5%;
+}
+
+.section5-profile img {
+  width: 10%;
+  height: 20%;
+  margin: 0;
+}
+
+.section5-profile {
+  justify-content: start;
+  width: 80%;
+}
+
+/* Fatimə Section 5 tablet version */
+
+
+@media screen and (min-width: 830px) and (max-width: 1400px) {
+
+  .section5 h1 {
+    width: 65%;
+    font-size: 32px;
+  }
+
+  .section5-container {
+    width: 55%;
+    border-radius: 40px;
+    padding: 30px;
+  }
+
+  .section5-topside {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .section5-bottomside img {
+    width: 30%;
+  }
+
+  .section5-bottomside h3 {
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding-left: 0;
+  }
+
+  .section5-bottomside {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .section5-profile img {
+    width: 8%;
+    height: 15%;
+    margin: 0;
+  }
+
+  .section5 {
+    padding: 52px 70px 64px;
+  }
+
+}
+
+/* Fatimə Section 5 mobile version */
+
+
+@media screen and (min-width: 370px) and (max-width: 830px) {
+
+  .section5 {
+    width: 100%;
+    background-color: #efefef;
+  }
+
+  .section5 h1 {
+    width: 65%;
+    margin: 0;
+    font-size: 26px;
+    margin-left: 20px;
+  }
+
+  .section5-container {
+    width: 82%;
+    border-radius: 40px;
+    margin: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+
+  .section5-topside {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .section5-bottomside img {
+    width: 30%;
+  }
+
+  .section5-bottomside h3 {
+    font-size: 14px;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .section5-bottomside {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+  }
+
+  .section5-profile {
+    justify-content: start;
+    width: 80%;
+  }
+
+  .section5-profile img {
+    margin-top: 10px;
+    width: 9%;
+  }
+
+  .section5 {
+    padding: 42px 36px 53px;
+  }
+
+}
+
+
+/* Fatimə Footer desktop version */
+
+
+.footer-section {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section {
+  font-family: 'Roboto';
+  font-weight: 400;
+  background-color: black;
+  width: 100%;
+  height: 390px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-section-left {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.footer-firstlogo {
+  width: 63%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-left-icons img {
+  width: 18%;
+  margin-right: 10px;
+}
+
+.footer-section-right1 img,
+img.footer-right-icon {
+  width: 10%;
+}
+
+
+.footer-section-right1,
+.footer-section-right2 {
+  display: flex;
+  justify-content: start;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.footer-section-right1 img,
+.footer-section-right2 img {
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: 24px;
+  font-size: 18px;
+}
+
+.footer-section-right {
+  margin-right: 70px;
+  margin-top: 45px;
+}
+
+
+/* Fatimə Footer tablet version */
+
+
+@media screen and (min-width: 830px) and (max-width: 1400px) {
+
+  .footer-section {
+    background-color: black;
+    width: 100%;
+    height: 225px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .footer-section-left {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  .footer-section-right {
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+  .footer-firstlogo {
+    width: 36%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .footer-left-icons img {
+    width: 10%;
+    margin-right: 10px;
+  }
+
+  .footer-section-right1 img,
+  img.footer-right-icon {
+    width: 9%;
+  }
+
+
+  .footer-section-right1,
+  .footer-section-right2 {
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .footer-section-right1 img,
+  .footer-section-right2 img {
+    margin-right: 15px;
+  }
+
+  .footer-bottom {
+    position: absolute;
+    bottom: 24px;
+    font-size: 10px;
+  }
+
+}
+
+/* Fatimə Footer mobile version */
+
+
+
+@media screen and (min-width: 370px) and (max-width: 830px) {
+
+  .footer-section {
+    background-color: black;
+    height: 251px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    box-sizing: border-box;
+    gap: 5%;
+  }
+
+
+  .footer-section-left {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+  }
+
+  .footer-section-right {
+    margin: 0;
+    margin-left: 40px;
+  }
+
+  .footer-firstlogo {
+    width: 15%;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .footer-left-icons img {
+    width: 4%;
+    margin-right: 10px;
+  }
+
+  .footer-section-right1 img,
+  img.footer-right-icon {
+    width: 4%;
+  }
+
+  .footer-section-right1,
+  .footer-section-right2 {
+    display: flex;
+    justify-content: start;
+    font-size: 12px;
+    margin: 0;
+    align-items: center;
+  }
+
+  .footer-section-right1 {
+    margin-bottom: 5px;
+  }
+
+  .footer-section-right1 img,
+  .footer-section-right2 img {
+    margin-right: 10px;
+  }
+
+  .footer-bottom {
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+    left: 40px;
+  }
+}
+
+/*ROYA - SECTION4*/
+
+#course-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px 85px;
+}
+
+.course-cards-h1 {
+  margin: 0 0 95px;
+  padding-left: 36px;
+
+  align-self: flex-start;
+
+  font-family: 'Roboto Slab';
+  font-size: 55px;
+}
+
+.course-container {
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  padding: 0;
+  margin: 0;
+
+  width: 31%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card p {
+  font-family: 'Roboto';
+}
+
+.card-head {
+  margin: 11px 0 32px;
+  padding: 0 20px;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-description {
+  padding: 0 20px;
+  margin-bottom: 23px;
+
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.card:last-child .card-description {
+  margin-top: 5px;
+}
+
+.card:last-child .card-head {
+  margin-bottom: 0;
+}
+
+.card-img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 830px) and (max-width: 1440px) {
+  .course-cards-h1 {
+    font-size: 32px;
+    padding-left: 22px;
+    margin-bottom: 55px;
+  }
+
+  .card-head {
+    font-size: 17px;
+
+    margin: 6px 0 18px;
+  }
+
+  .card-description {
+    font-size: 14px;
+
+    margin-bottom: 13px;
+  }
+
+  .course-container {
+    flex-wrap: wrap;
+    gap: 21px;
+  }
+
+  #course-cards-container {
+    padding: 128px 48px 52px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 830px) {
+  .course-cards-h1 {
+    font-size: 26px;
+
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .card-head {
+    font-size: 14px;
+
+    margin: 5px 0 16px;
+  }
+
+  .card-description {
+    font-size: 12px;
+
+    margin-bottom: 10px;
+  }
+
+  .course-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .card {
+    width: 62%;
+  }
+
+  #course-cards-container {
+    padding: 61px 36px 47px;
+  }
+}
+
 /* ------İBRAHİM SECTİON1 ------*/
 
 
 #kino-container {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 25px;
+  padding: 21px 121px 173px;
+  width: 100%;
 }
 
 .logo {
-    max-width: 8vw;
-    max-height: 9vh;
-    width: auto;
-    height: auto;
+  max-width: 9vw;
+  max-height: 9vh;
+  width: auto;
+  height: auto;
 }
 
 .navbar {
@@ -43,14 +757,14 @@
 }
 
 .navbar div img {
-    width: clamp(20px, 2vw, 30px);
-    height: clamp(20px, 2vw, 30px);
+    width: clamp(20px, 1.8vw, 30px);
+    height: clamp(20px, 1.8vw, 30px);
 }
 
 .kino-info {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .kino-text h1 {
@@ -72,21 +786,20 @@
 .kino-main-img {
     min-width: 25vw;
     min-height: 20vh;
-   
 }
 
 .kino-second {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .kino-second-blue {
-    width: 60%;
-    background: #1E4681;
-    color: #FFFFFF;
-    border-radius: 5px;
-    padding: 23px;
-    margin-top: 40px;
+  width: 60%;
+  background: #1E4681;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 23px;
+  margin-top: 40px;
 }
 
 .kino-second-blue p {
@@ -107,14 +820,13 @@
         font-size: 1.5vw;
         gap: 2vw;
     }
-
-    .navbar div {
-        gap: 0.5vw;
-    }
-
+  
+  .navbar div {
+    gap: 0.5vw;
+  }
     .navbar div img {
-        width: clamp(10px, 2vw, 30px);
-        height: clamp(10px, 2vw, 30px);
+        width: clamp(10px, 1.8vw, 30px);
+        height: clamp(10px, 1.8vw, 30px);
     }
 
     .kino-text h1 {
@@ -131,11 +843,6 @@
         max-height: 70vh;
     }
 
-    .kino-second-blue {
-        border-radius: 3px;
-        padding: 15px;
-    }
-
     .kino-second-blue p {
         font-size: 1.5vw;
     }
@@ -143,6 +850,11 @@
     .kino-second-blue p:last-child {
         font-size: 1.2vw;
     }
+  
+  .kino-second-blue {
+    border-radius: 3px;
+    padding: 15px;
+  }
 }
 
 @media screen and (min-width: 374px) and (max-width:829px) {
@@ -151,27 +863,27 @@
         gap: 2vw;
     }
 
-    .navbar div {
-        gap: 0.5vw;
-    }
+  .navbar div {
+    gap: 0.5vw;
+  }
 
     .navbar div img {
-        width: clamp(10px, 2vw, 20px);
-        height: clamp(10px, 2vw, 20px);
+        width: clamp(10px, 1.8vw, 20px);
+        height: clamp(10px, 1.8vw, 20px);
     }
 
-    .kino-info {
-        display: flex;
-        flex-direction: column;
-    }
+  .kino-info {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .kino-text {
-        align-self: flex-start;
-    }
+  .kino-text {
+    align-self: flex-start;
+  }
 
-    .kino-text h1 {
-        font-size: 8vw;
-    }
+  .kino-text h1 {
+    font-size: 8vw;
+  }
 
     .kino-text p {
         font-size: 3vw;
@@ -181,11 +893,11 @@
         align-self: flex-end;
         max-width: 40vw;
     }
+  .kino-second-blue {
+    border-radius: 2.3px;
+    padding: 12px;
+  }
 
-    .kino-second-blue {
-        border-radius: 2.3px;
-        padding: 12px;
-    }
 
     .kino-second-blue p {
         font-size: 2vw;
@@ -195,4 +907,240 @@
     .kino-second-blue p:last-child {
         font-size: 1.7vw;
     }
+
+  #kino-container {
+
+    padding: 36px 37px 75px;
+  }
+}
+
+/* MURAD - FORMAT CONTAINER SECTION 3 */
+
+#format-container {
+  padding: 0 122px 127px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.format-head {
+  font-weight: bold;
+  font-size: 55px;
+  font-family: 'Roboto Slab';
+  margin-bottom: 65px;
+}
+
+.format-card {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 200px;
+}
+
+.format-card h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1E4681;
+  margin-bottom: 0px;
+}
+
+.format-card p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.second ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-weight: 400;
+  font-size: 24px;
+  width: 46%;
+}
+
+.punct {
+  margin-bottom: 50px;
+}
+
+.second li {
+  line-height: 150%;
+}
+
+@media (min-width: 830px) and (max-width:1440px) {
+  #format-container {
+    padding: 0 199px 0 70px;
+  }
+
+  .format-head {
+    font-size: 32px;
+  }
+
+  .format-card {
+    gap: 47px;
+    margin-bottom: 100px;
+  }
+
+  .format-card h3 {
+    font-size: 15px;
+  }
+
+  .format-card p {
+    font-size: 11px;
+  }
+
+  .second ul {
+    font-size: 14px;
+    width: 39%;
+  }
+
+  .punct {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 375px) and (max-width:830px) {
+  #format-container {
+    padding: 0 28px 0 36px;
+  }
+
+  .format-head {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  .format-card {
+    gap: 5px;
+    flex-direction: column;
+    margin-bottom: 73px;
+  }
+
+  .format-card h3 {
+    font-size: 12px;
+  }
+
+  .format-card p {
+    font-size: 10px;
+  }
+
+  .blockp1 {
+    width: 60%;
+  }
+
+  .blockp2 {
+    width: 50%;
+  }
+
+  .blockp3 {
+    width: 40%
+  }
+
+  .second ul {
+    font-size: 12px;
+    width: 77%;
+  }
+}
+
+/* MURAD - SECTIN6 - GREEN CONTAINER */
+
+#green-container {
+  background-color: #9DC9C8;
+  padding: 179px 122px 185px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.green-head1 {
+  font-family: 'Roboto Slab';
+  font-size: 55px;
+  margin: 0 0 54px 0;
+}
+
+.green-head2 {
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.green-head3 {
+  font-family: 'Roboto';
+  margin-bottom: 50px;
+  margin-top: 0px;
+  font-size: 80px;
+}
+
+.green-boxes {
+  font-family: 'Roboto';
+  display: flex;
+  gap: 70px;
+}
+
+.box-head {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.green-box {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.green-boxes div {
+  width: 22%;
+}
+
+@media (min-width: 830px) and (max-width:1440px) {
+  #green-container {
+    padding: 103px 237px 107px 70px;
+  }
+
+  .green-head1 {
+
+    font-size: 32px;
+  }
+
+  .green-head2 {
+
+    font-size: 14px;
+  }
+
+  .green-head3 {
+    font-size: 46px;
+  }
+
+  .box-head {
+    font-size: 14px;
+  }
+
+  .green-box {
+    font-size: 10px;
+  }
+
+  .green-boxes {
+    gap: 40px;
+  }
+
+  .green-boxes div {
+    width: 30%;
+  }
+}
+
+@media (min-width: 375px) and (max-width:830px) {
+  #green-container {
+    padding: 62px 35px;
+  }
+
+  .green-head1 {
+    font-size: 26px;
+  }
+
+  .kino-second-blue p:last-child {
+    font-size: 10px;
+  }
+
+  .green-boxes {
+    gap: 30px;
+  }
+
+  .green-boxes div {
+    width: 50%;
+  }
 }
